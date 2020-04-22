@@ -187,6 +187,14 @@
             "example": "Sta chì a l'é unna fraxe.",
             "has_examples": true
         },
+
+        {
+            "code": "la",
+            "name": "Latin",
+            "example": "Quanti aestimas ista cognoscere, et rebus terminos ponere?",
+            "has_examples": true
+        },
+
         {
             "code": "xx",
             "name": "Multi-language",
