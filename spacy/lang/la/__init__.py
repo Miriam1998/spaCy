@@ -9,6 +9,7 @@ from ...lemmatizer import Lemmatizer
 from ..tokenizer_exceptions import BASE_EXCEPTIONS
 from ..norm_exceptions import BASE_NORMS
 from ...language import Language
+from ...lookups import Lookups
 from ...attrs import LANG, NORM
 from ...util import update_exc, add_lookups
 
@@ -25,7 +26,10 @@ class LatinDefaults(Language.Defaults):
 
     @classmethod
     def create_lemmatizer(cls, nlp=None, lookups=None):
-        return Lemmatizer(LOOKUP)
+        if lookups is None:
+            lookups = Lookups()
+            lookups.add_table("lemma_latin", LOOKUP)
+        return Lemmatizer(lookups)
 
 class Latin(Language):
     lang = "la"
