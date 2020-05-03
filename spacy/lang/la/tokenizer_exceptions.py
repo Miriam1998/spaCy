@@ -80,6 +80,8 @@ _exc = {
         ]
 }
 
+
+"""
 for exc_data in [
         {ORTH: "A.", LEMMA: "Aulus"},
         {ORTH: "Agr.", LEMMA: "Agrippa"},
@@ -112,6 +114,12 @@ for exc_data in [
         {ORTH: "Vop.", LEMMA: "Vopiscus"},
     ]:
     _exc[exc_data[ORTH]] = [exc_data]
-
+"""
+for orth in [
+    "P.",
+    "Ti.",
+    "M.",
+]:
+    _exc[orth] = [{ORTH: orth}]
 
 TOKENIZER_EXCEPTIONS = _exc

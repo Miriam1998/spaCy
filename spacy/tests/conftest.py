@@ -250,3 +250,12 @@ def zh_tokenizer_pkuseg():
 @pytest.fixture(scope="session")
 def hy_tokenizer():
     return get_lang_class("hy").Defaults.create_tokenizer()
+
+
+@pytest.fixture(scope="session")
+def la_tokenizer():
+    return get_lang_class("la").Defaults.create_tokenizer()
+
+@pytest.fixture
+def la_lemmatizer():
+    return get_lang_class("la").Defaults.create_lemmatizer()

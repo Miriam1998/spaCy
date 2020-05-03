@@ -24,12 +24,13 @@ class LatinDefaults(Language.Defaults):
     stop_words = STOP_WORDS
     tag_map = TAG_MAP
 
-    @classmethod
+"""    @classmethod
     def create_lemmatizer(cls, nlp=None, lookups=None):
         if lookups is None:
             lookups = Lookups()
-            lookups.add_table("lemma_latin", LOOKUP)
+            lookups.add_table("la_lemma_lookup", LOOKUP)
         return Lemmatizer(lookups)
+"""
 
 class Latin(Language):
     lang = "la"
