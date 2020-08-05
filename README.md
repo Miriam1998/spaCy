@@ -52,7 +52,7 @@ pip install git+https://github.com/Miriam1998/spacy-lookups-data.git@lemmaLatin#
 ```
 
 
-## Installare da un branch 
+## Installazione da un branch 
 
 - [How to install Python package from GitHub? [duplicate]](https://stackoverflow.com/questions/15268953/how-to-install-python-package-from-github)
     
