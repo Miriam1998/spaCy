@@ -1,287 +1,110 @@
-<a href="https://explosion.ai"><img src="https://explosion.ai/assets/img/logo.svg" width="125" height="125" align="right" /></a>
+# Modificati repository Explosion per l'introduzione della lingua latina
 
-# spaCy: Industrial-strength NLP
+## **[spaCy](https://github.com/Miriam1998/spaCy/tree/spacyLatin):** 
 
-spaCy is a library for advanced Natural Language Processing in Python and
-Cython. It's built on the very latest research, and was designed from day one to
-be used in real products. spaCy comes with
-[pretrained statistical models](https://spacy.io/models) and word vectors, and
-currently supports tokenization for **50+ languages**. It features
-state-of-the-art speed, convolutional **neural network models** for tagging,
-parsing and **named entity recognition** and easy **deep learning** integration.
-It's commercial open-source software, released under the MIT license.
-
-💫 **Version 2.2 out now!**
-[Check out the release notes here.](https://github.com/explosion/spaCy/releases)
-
-[![Azure Pipelines](<https://img.shields.io/azure-devops/build/explosion-ai/public/8/master.svg?logo=azure-pipelines&style=flat-square&label=build+(3.x)>)](https://dev.azure.com/explosion-ai/public/_build?definitionId=8)
-[![Travis Build Status](<https://img.shields.io/travis/explosion/spaCy/master.svg?style=flat-square&logo=travis-ci&logoColor=white&label=build+(2.7)>)](https://travis-ci.org/explosion/spaCy)
-[![Current Release Version](https://img.shields.io/github/release/explosion/spacy.svg?style=flat-square&logo=github)](https://github.com/explosion/spaCy/releases)
-[![pypi Version](https://img.shields.io/pypi/v/spacy.svg?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/spacy/)
-[![conda Version](https://img.shields.io/conda/vn/conda-forge/spacy.svg?style=flat-square&logo=conda-forge&logoColor=white)](https://anaconda.org/conda-forge/spacy)
-[![Python wheels](https://img.shields.io/badge/wheels-%E2%9C%93-4c1.svg?longCache=true&style=flat-square&logo=python&logoColor=white)](https://github.com/explosion/wheelwright/releases)
-[![PyPi downloads](https://img.shields.io/pypi/dm/spacy?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/spacy/)
-[![Conda downloads](https://img.shields.io/conda/dn/conda-forge/spacy?style=flat-square&logo=conda-forge&logoColor=white)](https://anaconda.org/conda-forge/spacy)
-[![Model downloads](https://img.shields.io/github/downloads/explosion/spacy-models/total?style=flat-square&label=model+downloads)](https://github.com/explosion/spacy-models/releases)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/ambv/black)
-[![spaCy on Twitter](https://img.shields.io/twitter/follow/spacy_io.svg?style=social&label=Follow)](https://twitter.com/spacy_io)
-
-## 📖 Documentation
-
-| Documentation   |                                                                |
-| --------------- | -------------------------------------------------------------- |
-| [spaCy 101]     | New to spaCy? Here's everything you need to know!              |
-| [Usage Guides]  | How to use spaCy and its features.                             |
-| [New in v2.2]   | New features, backwards incompatibilities and migration guide. |
-| [API Reference] | The detailed reference for spaCy's API.                        |
-| [Models]        | Download statistical language models for spaCy.                |
-| [Universe]      | Libraries, extensions, demos, books and courses.               |
-| [Changelog]     | Changes and version history.                                   |
-| [Contribute]    | How to contribute to the spaCy project and code base.          |
-
-[spacy 101]: https://spacy.io/usage/spacy-101
-[new in v2.2]: https://spacy.io/usage/v2-2
-[usage guides]: https://spacy.io/usage/
-[api reference]: https://spacy.io/api/
-[models]: https://spacy.io/models
-[universe]: https://spacy.io/universe
-[changelog]: https://spacy.io/usage#changelog
-[contribute]: https://github.com/explosion/spaCy/blob/master/CONTRIBUTING.md
-
-## 💬 Where to ask questions
-
-The spaCy project is maintained by [@honnibal](https://github.com/honnibal) and
-[@ines](https://github.com/ines), along with core contributors
-[@svlandeg](https://github.com/svlandeg) and
-[@adrianeboyd](https://github.com/adrianeboyd). Please understand that we won't
-be able to provide individual support via email. We also believe that help is
-much more valuable if it's shared publicly, so that more people can benefit from
-it.
-
-| Type                     | Platforms                                              |
-| ------------------------ | ------------------------------------------------------ |
-| 🚨 **Bug Reports**       | [GitHub Issue Tracker]                                 |
-| 🎁 **Feature Requests**  | [GitHub Issue Tracker]                                 |
-| 👩‍💻 **Usage Questions**   | [Stack Overflow] · [Gitter Chat] · [Reddit User Group] |
-| 🗯 **General Discussion** | [Gitter Chat] · [Reddit User Group]                    |
-
-[github issue tracker]: https://github.com/explosion/spaCy/issues
-[stack overflow]: https://stackoverflow.com/questions/tagged/spacy
-[gitter chat]: https://gitter.im/explosion/spaCy
-[reddit user group]: https://www.reddit.com/r/spacynlp
-
-## Features
-
-- Non-destructive **tokenization**
-- **Named entity** recognition
-- Support for **50+ languages**
-- pretrained [statistical models](https://spacy.io/models) and word vectors
-- State-of-the-art speed
-- Easy **deep learning** integration
-- Part-of-speech tagging
-- Labelled dependency parsing
-- Syntax-driven sentence segmentation
-- Built in **visualizers** for syntax and NER
-- Convenient string-to-hash mapping
-- Export to numpy data arrays
-- Efficient binary serialization
-- Easy **model packaging** and deployment
-- Robust, rigorously evaluated accuracy
-
-📖 **For more details, see the
-[facts, figures and benchmarks](https://spacy.io/usage/facts-figures).**
-
-## Install spaCy
-
-For detailed installation instructions, see the
-[documentation](https://spacy.io/usage).
-
-- **Operating system**: macOS / OS X · Linux · Windows (Cygwin, MinGW, Visual
-  Studio)
-- **Python version**: Python 2.7, 3.5+ (only 64 bit)
-- **Package managers**: [pip] · [conda] (via `conda-forge`)
-
-[pip]: https://pypi.org/project/spacy/
-[conda]: https://anaconda.org/conda-forge/spacy
-
-### pip
-
-Using pip, spaCy releases are available as source packages and binary wheels (as
-of `v2.0.13`).
+- website -> meta -> [languages.json](https://github.com/Miriam1998/spaCy/blob/spacyLatin/website/meta/languages.json):
 
 ```bash
-pip install spacy
+{
+	            "code": "la",
+	            "name": "Latin",
+	            "example": "Quanti aestimas ista cognoscere, et rebus terminos ponere?",
+	            "has_examples": true
+	        },
 ```
 
-To install additional data tables for lemmatization in **spaCy v2.2+** you can
-run `pip install spacy[lookups]` or install
-[`spacy-lookups-data`](https://github.com/explosion/spacy-lookups-data)
-separately. The lookups package is needed to create blank models with
-lemmatization data, and to lemmatize in languages that don't yet come with
-pretrained models and aren't powered by third-party libraries.
+- spacy -> lang -> [la](https://github.com/Miriam1998/spaCy/tree/spacyLatin/spacy/lang/la):
 
-When using pip it is generally recommended to install packages in a virtual
-environment to avoid modifying system state:
+    -[tokenizer_exceptions.py](https://github.com/Miriam1998/spaCy/blob/spacyLatin/spacy/lang/la/tokenizer_exceptions.py)
+
+    -[tag_map.py](https://github.com/Miriam1998/spaCy/blob/spacyLatin/spacy/lang/la/tag_map.py)
+  
+    -[stop_words.py](https://github.com/Miriam1998/spaCy/blob/spacyLatin/spacy/lang/la/stop_words.py)
+
+#### Pacchetto installato con il seguente comando:
 
 ```bash
-python -m venv .env
-source .env/bin/activate
-pip install spacy
+pip install git+https://github.com/Miriam1998/spaCy.git@spacyLatin#egg=spaCy
 ```
 
-### conda
+### **[spacy-lookups-data](https://github.com/Miriam1998/spacy-lookups-data/tree/lemmaLatin):** 
 
-Thanks to our great community, we've finally re-added conda support. You can now
-install spaCy via `conda-forge`:
+- spacy-lookups-data -> [setup.cfg](https://github.com/Miriam1998/spacy-lookups-data/blob/lemmaLatin/setup.cfg):
 
 ```bash
-conda install -c conda-forge spacy
+la = spacy_lookups_data:la
 ```
 
-For the feedstock including the build recipe and configuration, check out
-[this repository](https://github.com/conda-forge/spacy-feedstock). Improvements
-and pull requests to the recipe and setup are always appreciated.
-
-### Updating spaCy
-
-Some updates to spaCy may require downloading new statistical models. If you're
-running spaCy v2.0 or higher, you can use the `validate` command to check if
-your installed models are compatible and if not, print details on how to update
-them:
+-	spacy-lookups-data -> spacy_lookups_data -> [_init_.py](https://github.com/Miriam1998/spacy-lookups-data/blob/lemmaLatin/spacy_lookups_data/__init__.py):
 
 ```bash
-pip install -U spacy
-python -m spacy validate
+la = {"lemma_lookup": get_file("la_lemma_lookup.json")}
 ```
 
-If you've trained your own models, keep in mind that your training and runtime
-inputs must match. After updating spaCy, we recommend **retraining your models**
-with the new version.
+-	spacy-lookups-data -> spacy_lookups_data -> [data](https://github.com/Miriam1998/spacy-lookups-data/tree/lemmaLatin/spacy_lookups_data/data):
 
-📖 **For details on upgrading from spaCy 1.x to spaCy 2.x, see the
-[migration guide](https://spacy.io/usage/v2#migrating).**
-
-## Download models
-
-As of v1.7.0, models for spaCy can be installed as **Python packages**. This
-means that they're a component of your application, just like any other module.
-Models can be installed using spaCy's `download` command, or manually by
-pointing pip to a path or URL.
-
-| Documentation          |                                                               |
-| ---------------------- | ------------------------------------------------------------- |
-| [Available Models]     | Detailed model descriptions, accuracy figures and benchmarks. |
-| [Models Documentation] | Detailed usage instructions.                                  |
-
-[available models]: https://spacy.io/models
-[models documentation]: https://spacy.io/docs/usage/models
+    [la_lemma_lookup.json (lemmazione)](https://github.com/Miriam1998/spacy-lookups-data/blob/lemmaLatin/spacy_lookups_data/data/la_lemma_lookup.json)
+    
+#### Pacchetto installato con il seguente comando:
 
 ```bash
-# download best-matching version of specific model for your spaCy installation
-python -m spacy download en_core_web_sm
-
-# pip install .tar.gz archive from path or URL
-pip install /Users/you/en_core_web_sm-2.2.0.tar.gz
-pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
+pip install git+https://github.com/Miriam1998/spacy-lookups-data.git@lemmaLatin#egg=spacy-lookups-data
 ```
 
-### Loading and using models
 
-To load a model, use `spacy.load()` with the model name, a shortcut link or a
-path to the model data directory.
+## Installare da un brunch 
 
-```python
-import spacy
-nlp = spacy.load("en_core_web_sm")
-doc = nlp("This is a sentence.")
-```
+- [How to install Python package from GitHub? [duplicate]](https://stackoverflow.com/questions/15268953/how-to-install-python-package-from-github)
+    
+- [pip install from git repo branch](https://stackoverflow.com/questions/20101834/pip-install-from-git-repo-branch)
+    
+- [VCS Support](https://pip.pypa.io/en/stable/reference/pip_install/#vcs-support)
 
-You can also `import` a model directly via its full name and then call its
-`load()` method with no arguments.
+## Addestramento e comandi
 
-```python
-import spacy
-import en_core_web_sm
+### [Convert](https://spacy.io/api/cli#convert)
+Converte file nel [formato JSON](https://spacy.io/api/annotation#json-input) di SpaCy
 
-nlp = en_core_web_sm.load()
-doc = nlp("This is a sentence.")
-```
+### [Debug-data](https://spacy.io/api/cli#debug-data):
 
-📖 **For more info and examples, check out the
-[models documentation](https://spacy.io/docs/usage/models).**
+Analizza, esegui il debug e convalida i dati di formazione e sviluppo. Ottieni statistiche utili e trova problemi come annotazioni di entità non valide, dipendenze cicliche, etichette con dati bassi e altro ancora.
 
-## Compile from source
-
-The other way to install spaCy is to clone its
-[GitHub repository](https://github.com/explosion/spaCy) and build it from
-source. That is the common way if you want to make changes to the code base.
-You'll need to make sure that you have a development environment consisting of a
-Python distribution including header files, a compiler,
-[pip](https://pip.pypa.io/en/latest/installing/),
-[virtualenv](https://virtualenv.pypa.io/en/latest/) and
-[git](https://git-scm.com) installed. The compiler part is the trickiest. How to
-do that depends on your system. See notes on Ubuntu, OS X and Windows for
-details.
+### [Train](https://spacy.io/api/cli#train):
 
 ```bash
-# make sure you are using the latest pip
-python -m pip install -U pip
-git clone https://github.com/explosion/spaCy
-cd spaCy
-
-python -m venv .env
-source .env/bin/activate
-export PYTHONPATH=`pwd`
-pip install -r requirements.txt
-python setup.py build_ext --inplace
+python -m spacy train [lang] [output_path] [train_path] [dev_path] [+altri argomenti]
 ```
 
-Compared to regular install via pip, [requirements.txt](requirements.txt)
-additionally installs developer dependencies such as Cython. For more details
-and instructions, see the documentation on
-[compiling spaCy from source](https://spacy.io/usage#source) and the
-[quickstart widget](https://spacy.io/usage#section-quickstart) to get the right
-commands for your platform and Python version.
+Dettagli per [training da cli](https://spacy.io/usage/training#spacy-train-cli)
 
-### Ubuntu
+### Aggiornare un modello statistico preesistente tramite cli:
 
-Install system-level dependencies via `apt-get`:
+Esempio:
 
 ```bash
-sudo apt-get install build-essential python-dev git
+python -m spacy train la latin cbma_ann_train6.json cbma_ann_test6.json -b model-best -p ner -R -n 10
 ```
 
-### macOS / OS X
+| Argomento utilizzato   |                                                                                                                |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------- |
+| la                     | Specifica della lingua, per il latino è "la".                                                                  |
+| latin                  | Directory dove vengono salvati i modelli di ciascuna iterazione. "latin" nome della directory dell'esempio.    |
+| cbma_ann_train6.json   | Training set.                                                                                                  |
+| cbma_ann_test6.json    | Validation set.                                                                                                |
+| -b model-best          | Modello di base da aggiornare. "model-best" nome della directory del modello scelto come esempio da aggiornare.|
+| -p ner                 | Componenti della pipeline da addestrare. Nell'esempio solo 'ner'.                                              |
+| -R                     | Sostituire i componenti dal modello base.                                                                      |
+| -n 10                  | Numero di iterazioni (default: 30).                                                                            |
 
-Install a recent version of [XCode](https://developer.apple.com/xcode/),
-including the so-called "Command Line Tools". macOS and OS X ship with Python
-and git preinstalled.
+#### Issues utili:
 
-### Windows
+- [Error when trying to train NER component with CLI starting from a base model](https://github.com/explosion/spaCy/issues/4902)
 
-Install a version of the
-[Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
-or [Visual Studio Express](https://visualstudio.microsoft.com/vs/express/) that
-matches the version that was used to compile your Python interpreter. For
-official distributions these are VS 2008 (Python 2.7), VS 2010 (Python 3.4) and
-VS 2015 (Python 3.5).
+- [spacy CLI train - KeyError [E022] when training an additional NER entity type with --base-mode](https://github.com/explosion/spaCy/issues/4465)
 
-## Run tests
+### [Aggiornamento di modelli tramite script](https://spacy.io/usage/training#example-train-ner)
 
-spaCy comes with an [extensive test suite](spacy/tests). In order to run the
-tests, you'll usually want to clone the repository and build spaCy from source.
-This will also install the required development dependencies and test utilities
-defined in the `requirements.txt`.
+### [Creazione del package e installazione tramite cli](https://spacy.io/api/cli#package)
 
-Alternatively, you can find out where spaCy is installed and run `pytest` on
-that directory. Don't forget to also install the test utilities via spaCy's
-`requirements.txt`:
 
-```bash
-python -c "import os; import spacy; print(os.path.dirname(spacy.__file__))"
-pip install -r path/to/requirements.txt
-python -m pytest <spacy-directory>
-```
 
-See [the documentation](https://spacy.io/usage#tests) for more details and
-examples.
