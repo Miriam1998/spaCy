@@ -67,7 +67,7 @@ Converte file nel [formato JSON](https://spacy.io/api/annotation#json-input) di 
 
 ### [Debug-data](https://spacy.io/api/cli#debug-data):
 
-Analizza, esegui il debug e convalida i dati di formazione e sviluppo. Ottieni statistiche utili e trova problemi come annotazioni di entità non valide, dipendenze cicliche, etichette con dati bassi e altro ancora.
+Analizza, esegue il debug e convalida i dati di formazione e sviluppo. Ottieni statistiche utili e trova problemi come annotazioni di entità non valide, dipendenze cicliche, etichette con dati bassi e altro ancora.
 
 ### [Train](https://spacy.io/api/cli#train):
 
